@@ -1,0 +1,14 @@
+# Blacklist everything
+/*
+
+# Whitelisted files
+!.bash_aliases
+!.bash_prompt
+!.eslintrc
+!.git-completion.bash
+!.gitconfig
+!.gitignore
+!.new-install.sh
+!.vim-setup.sh
+!.vimrc
+!README.md

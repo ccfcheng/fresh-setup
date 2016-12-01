@@ -1,0 +1,23 @@
+[user]
+  name = Cliff Saporta Cheng
+  email = ccfcheng@gmail.com
+[core]
+  autocrlf = input
+  safecrlf = true
+  editor = vim
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  pod = pull origin develop
+  rd = rebase develop
+  cam = commit -a -m
+  ca = commit -a
+  ri = rebase -i
+
+[push]
+  default = simple
