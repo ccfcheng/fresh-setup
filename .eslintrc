@@ -18,4 +18,7 @@
   "parserOptions": {
     "sourceType": "module",
   },
+  "rules": {
+    "no-console": "warn",
+  },
 }

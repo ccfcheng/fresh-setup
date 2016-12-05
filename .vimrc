@@ -46,6 +46,7 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+set gdefault
 nmap <silent> ,/ :noh<CR>
 
 " Turn off Vim backup and swap files and autoload changes
@@ -82,7 +83,7 @@ nnoremap <Leader>v :vsplit<CR>
 
 " NERDTree Config
 map <C-\> :NERDTreeToggle<CR>
-let NERDTreeIgnore=['node_modules$[[dir]]', '.git$[[dir]]']
+let NERDTreeIgnore=['node_modules$[[dir]]', '.git$[[dir]]', '\.pyc$']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Javascript syntax config
