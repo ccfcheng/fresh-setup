@@ -81,6 +81,8 @@ nnoremap <Leader>x :xa<CR>
 nmap <Leader><Leader> V
 nnoremap <Leader>v :vsplit<CR>
 
+" Turn on mouse control
+silent! set mouse=a
 " NERDTree Config
 map <C-\> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['node_modules$[[dir]]', '.git$[[dir]]', '\.pyc$']
